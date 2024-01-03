@@ -1,0 +1,35 @@
+.container {
+    /* display: flex; */
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    gap: 30px; 
+    /* border: 1px solid black; */
+    width: 750px;
+  }
+  
+  .title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #b91212;
+  }
+  
+  .list {
+    list-style: inside;
+  }
+  
+  .item {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #191d1e;
+    transition: all, 250ms;
+  
+    &:hover {
+      color: #b91212; 
+  }
+  }

@@ -1,0 +1,15 @@
+.headerLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #191d1e;
+  transition: all, 250ms;
+}
+
+.header {
+  border-bottom: solid 1px grey;
+  margin-bottom: 20px;
+}

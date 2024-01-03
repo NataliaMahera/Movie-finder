@@ -1,0 +1,17 @@
+.btnGoBack {
+  margin: 60px;
+  padding: 6px 6px;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #191d1e;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px 4px;
+  transition: all 250ms;
+
+  &:hover {
+    color: #b91212;
+    border: 1px solid #b91212;
+}
+}
