@@ -61,6 +61,7 @@ const Slider = ({ films }) => {
                 />
                 <div className={css.subtitle}>{!title ? name : title}</div>
               </Link>
+              <div></div>
             </SwiperSlide>
           ))}
       </Swiper>
