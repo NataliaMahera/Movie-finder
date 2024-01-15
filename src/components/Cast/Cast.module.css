@@ -1,11 +1,9 @@
 .container {
     display: flex;
-    margin-left: 70px;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 50px;
     gap: 30px; 
-    border: 1px solid black;
-    width: 750px;
+    width: 90%;
   }
   
   .title{
@@ -15,12 +13,11 @@
   }
   
   .list {
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    padding-top: 50px;
     justify-content: center;
     gap: 45px;
   }
@@ -36,5 +33,30 @@
     min-width: 320px;
     flex-basis: calc((100% - 80px) / 4);
     border: none;
+  }
+
+  .img {
+    border-radius: 10px;
+  }
+
+  @media screen and (min-width: 768px){
+    .container{
+     
+      margin-left: 70px;
+      width: 750px;
+      border-radius: 10px;
+      border: 1px solid black;
+      margin-top: 25px;
+    }
+
+    .list {
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-left: -30px;
+      padding-top: 50px;
+      justify-content: center;
+      gap: 45px;
+      padding-top: 50px;
+    }
   }
   

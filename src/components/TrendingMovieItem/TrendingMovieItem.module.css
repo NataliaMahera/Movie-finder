@@ -1,11 +1,12 @@
 .container {
     display: flex;
-    margin-left: 65px;
-    margin-top: 25px;
-    gap: 30px; 
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15px;
+    gap: 15px; 
     border: 1px solid black;
-    width: 750px;
-    padding-right: 20px;
+    width: 375px;
+    
 }
 
 .title{
@@ -18,4 +19,32 @@
     font-weight: 600;
     font-size: 20px;
     
+}
+
+.img{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: auto;
+   
+}
+
+.textContainer{
+    padding: 12px;
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        flex-direction: row;
+        margin-left: 65px;
+        margin-top: 25px;
+        gap: 15px; 
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 760px;
+    }
+
+    .img{
+        border-radius: 10px;
+        width: 350px;
+    }
 }

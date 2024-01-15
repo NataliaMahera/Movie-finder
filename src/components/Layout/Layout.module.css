@@ -2,7 +2,8 @@
   display: inline-block;
   text-decoration: none;
   padding: 14px;
-  margin-left: 50px;
+  margin-left:15px;
+  gap: 10px;
   font-weight: 600;
   font-size: 22px;
   color: #191d1e;
@@ -13,3 +14,9 @@
   border-bottom: solid 1px grey;
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 768px){
+  .header {
+      margin-left: 65px;
+    }
+  }

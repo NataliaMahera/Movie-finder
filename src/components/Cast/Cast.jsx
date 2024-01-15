@@ -45,6 +45,7 @@ const Cast = () => {
           {castDetails.map(({ id, profile_path, original_name, character }) => (
             <li key={id}>
               <img
+                className={css.img}
                 width="300px"
                 src={
                   profile_path

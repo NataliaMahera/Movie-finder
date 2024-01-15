@@ -1,12 +1,10 @@
 .container {
     display: flex;
-    margin-left: 70px;
     margin-top: 10px;
     margin-bottom: 50px;
-    gap: 30px; 
     border: 1px solid black;
-    width: 750px;
-    padding-right: 20px;
+    width: 375px;
+    padding-right: 10px;
   }
   
   .list {
@@ -15,9 +13,27 @@
 
   .notification {
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 65px;
     font-size: 22px;
     text-align: center;
     color:  #a11d1d;
+  }
+
+  .desc{
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px){
+    .container {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      border: 1px solid black;
+      border-radius: 10px;
+      width: 750px;
+      padding: 10px;
+      margin-left: 65px;
+    }
   }
   
